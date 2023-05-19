@@ -26,16 +26,16 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
-      accent: white
+      primary: lime
+      accent: lime
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: black
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
