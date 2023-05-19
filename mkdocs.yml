@@ -1,4 +1,4 @@
-site_name: WS
+site_name: Eureka
 site_description: My notes.
 site_url: https://www.shaowang.me/
 site_author: Shao Wang
@@ -16,8 +16,8 @@ theme:
     features:
         # - navigation.indexes
         - navigation.top
-        # - navigation.tabs
-        # - navigation.tabs.sticky
+        - navigation.tabs
+        - navigation.tabs.sticky
         - navigation.expand
         - search.suggest
         - search.highlight
