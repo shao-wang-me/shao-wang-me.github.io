@@ -16,7 +16,7 @@ Outside of work, I enjoy spending time in nature, driving and explore new things
 
 *The note titles are in English but many contents are in Chinese or a mix of both.*
 
-Graph of all notes (also in [graph](/graph.html)):
+Graph of all notes:
 
 <iframe id="test"
         title='test'
