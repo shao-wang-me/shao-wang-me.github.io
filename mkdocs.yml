@@ -1,6 +1,7 @@
-site_name: Shao Wang
+site_name: WS
 site_description: My notes.
 site_url: https://www.shaowang.me/
+site_author: Shao Wang
 
 theme:
     name: 'material'
@@ -11,33 +12,33 @@ theme:
         text: Ubuntu
         code: Ubuntu Mono
     language: en
-    palette:
 
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
     features:
-        - navigation.indexes
+        # - navigation.indexes
         - navigation.top
-        - navigation.tabs
-        - navigation.tabs.sticky
+        # - navigation.tabs
+        # - navigation.tabs.sticky
         - navigation.expand
         - search.suggest
         - search.highlight
+
+    palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: white
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
         
 # Extensions
 markdown_extensions:
