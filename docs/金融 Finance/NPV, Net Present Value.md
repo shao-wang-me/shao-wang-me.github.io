@@ -1,6 +1,6 @@
 ---
 publish: true
-en_title: NPV
+en_title: NPV, Net Present Value
 tags:
   - draft
   - flashcards
@@ -11,9 +11,7 @@ tags:
 
 #flashcards 
 
-net present value
-
-NPV 计算公式
+NPV 计算公式 calculation
 ?
 ```text
 r = interest rate

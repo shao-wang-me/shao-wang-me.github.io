@@ -1,5 +1,5 @@
 ---
-en_title: DFS of binary trees
+en_title: DFS of Binary Trees
 publish: true
 tags:
   - flashcards
