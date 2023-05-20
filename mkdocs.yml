@@ -5,7 +5,7 @@ site_author: Shao Wang
 
 theme:
     name: 'material'
-    logo: assets/meta/bulb_logo.svg
+    logo: null
     favicon: assets/meta/bulb_logo.svg
     custom_dir: overrides
     font:
