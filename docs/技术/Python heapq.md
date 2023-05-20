@@ -2,7 +2,7 @@
 publish: true
 ---
 
-Python heapq is a library that represent a [[堆|heap]]'s [[完全二叉树|complete binary tree]] in a list.
+Python heapq is a library that represent a [[../../堆|heap]]'s [[../../完全二叉树|complete binary tree]] in a list.
 
 ```python
 >>> from random import randint
