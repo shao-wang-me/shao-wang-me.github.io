@@ -5,7 +5,7 @@ site_author: Shao Wang
 
 theme:
     name: 'material'
-    logo: null
+    logo: assets/meta/bulb_logo.svg
     favicon: assets/meta/bulb_logo.svg
     custom_dir: overrides
     font:
@@ -84,7 +84,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: fr
+      locale: en
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
   - ezlinks:
