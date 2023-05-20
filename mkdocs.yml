@@ -5,8 +5,8 @@ site_author: Shao Wang
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/meta/bulb_logo.svg
+    favicon: assets/meta/bulb_logo.svg
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -84,7 +84,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: en
+      locale: fr
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
   - ezlinks:
