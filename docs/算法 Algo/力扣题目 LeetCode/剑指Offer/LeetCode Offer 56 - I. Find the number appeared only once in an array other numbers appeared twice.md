@@ -2,9 +2,9 @@
 publish: true
 en_title: LeetCode Offer 56 - I. Find the number appeared only once in an array
   other numbers appeared twice
-sr-due: 2023-05-21
-sr-interval: 4
-sr-ease: 250
+sr-due: 2023-06-11
+sr-interval: 20
+sr-ease: 270
 tags:
   - algo
 ---
@@ -14,7 +14,7 @@ tags:
 
 链接:: [剑指 Offer 56 - I. 数组中数字出现的次数 - 力扣（LeetCode）](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
 
-做法:: [[../../数学/二进制/Bitwise Operations|Bitwise Operations]]
+做法:: [[../../Bitwise Operations|Bitwise Operations]]
 
 > 一个整型数组 `nums` 里除两个数字之外，其他数字都出现了两次。请写程序找出这两个只出现一次的数字。要求时间复杂度是O(n)，空间复杂度是O(1)。
 > 
@@ -28,7 +28,7 @@ tags:
 
 是输出**只出现一次**的**两个**数字，其它数字都出现**两次**！
 
-最简单的办法是计数，但是需要 O(n) 的空间，不符合要求。排序也不行。看了提示，居然是[[../../数学/二进制/Bitwise Operations|Bitwise Operations]]。应该是 n XOR n = 0，这个可以跨越不同数字么？
+最简单的办法是计数，但是需要 O(n) 的空间，不符合要求。排序也不行。看了提示，居然是[[../../Bitwise Operations|Bitwise Operations]]。应该是 n XOR n = 0，这个可以跨越不同数字么？
 
 例如 [4,1,4,6]，`4 ^ 1 ^ 4 ^ 6 = 7`，虽然 4 都消掉了，但是从 7 能得到什么呢？这个值是 1 XOR 6：
 
@@ -67,7 +67,7 @@ while div & ret == 0:  # find the last 1 (rightmost 1)
 	div <<= 1
 ```
 
-我之前用的方式，先把最后一位 1 变成 0，在和原数字异或，不需要 while，是最妙的：
+我之前用的方式，先把最后一位 1 变成 0，在和原数字异或，不需要 while，**是最妙的**：
 
 ```python
 # find the different digit (binary)
