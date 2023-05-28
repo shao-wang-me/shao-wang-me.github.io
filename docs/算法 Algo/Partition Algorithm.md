@@ -1,13 +1,16 @@
 ---
 publish: true
 en_title: Partition Algorithm
+sr-due: 2023-05-30
+sr-interval: 3
+sr-ease: 253
 tags:
   - draft
   - flashcards
 ---
 
 
-#draft 完善、three-way
+#draft three-way
 
 算法的核心是：
 
@@ -21,7 +24,7 @@ tags:
 
 Partition 有两种方法，比较好写的 Lomuto 和发明快速排序的 Hoare 的算法。
 
-1. [[../../Partition 中的 Lomuto 算法|Partition 中的 Lomuto 算法]]
+1. [[Partition 中的 Lomuto 算法|Partition 中的 Lomuto 算法]]
 2. [[./Hoare's Partition Algorithm|Hoare's Partition Algorithm]]
 
 代码详见：[algo/sorting.py at main · shao-wang-me/algo (github.com)](https://github.com/shao-wang-me/algo/blob/main/sorting.py)
@@ -35,6 +38,6 @@ Partition 的复杂度:: $O(n)$，因为要遍历所有元素，无论是快慢�
 
 Partition 的应用
 ?
-1. [[../../快速排序|快速排序]]，$O(n)$
+1. [[快速排序|快速排序]]，$O(n)$
 2. 快速选择，即寻找第 k 大的元素（故包含寻找中位数），$O(n)$
 <!--SR:!2023-07-09,57,270-->
