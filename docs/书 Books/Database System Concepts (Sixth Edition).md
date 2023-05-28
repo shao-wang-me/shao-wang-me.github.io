@@ -8,7 +8,7 @@ Database System Concepts (Sixth Edition)
 
 Contents
 
-1. Chapter 1: Introduction
+1. Introduction
 	1. Database-System Applications
 	2. Purpose of Database Systems
 	3. View of Data
@@ -169,4 +169,4 @@ Contents
 	8. Design of Parallel Systems
 	9. Parallelism on Multicore Processors
 19. Distributed Databases
-	1. 
+	1. ...
