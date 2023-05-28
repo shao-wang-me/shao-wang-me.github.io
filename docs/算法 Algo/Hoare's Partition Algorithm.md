@@ -1,13 +1,16 @@
 ---
 publish: true
 en_title: Hoare's Partition Algorithm
+sr-due: 2023-06-01
+sr-interval: 4
+sr-ease: 250
 tags:
   - draft
   - flashcards
 ---
 
 
-#draft 为什么 Hoare 比 Lomuto 的效率高
+#draft 为什么 Hoare 比 Lomuto 的效率高，似乎来自算法导论，去看看
 
 发明快速排序的英国计算机科学家 Hoare 的办法。用左右两个指针，根据比对和 pivot 的大小互相交换位置，最后 pivot 和右指针的位置交换。
 
@@ -17,7 +20,7 @@ tags:
 
 用 while 也分为用 `while true` 模拟 `until` 和直接 `while`。最好也是在理解的前提下==**背下来**==。
 
-这个算法效率比 [[../../Partition 中的 Lomuto 算法|Partition 中的 Lomuto 算法]] 的高。
+这个算法效率比 [[Partition 中的 Lomuto 算法|Partition 中的 Lomuto 算法]] 的高。
 
 ---
 
