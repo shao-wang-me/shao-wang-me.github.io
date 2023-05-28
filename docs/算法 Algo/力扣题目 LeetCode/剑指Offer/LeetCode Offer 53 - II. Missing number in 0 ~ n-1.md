@@ -1,9 +1,9 @@
 ---
+publish: true
+en_title: LeetCode Offer 53 - II. Missing number in 0 ~ n-1
 sr-due: 2023-06-03
 sr-interval: 17
 sr-ease: 290
-publish: true
-en_title: LeetCode Offer 53 - II. Missing number in 0 ~ n-1
 tags:
   - algo
 ---
