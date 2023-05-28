@@ -1,7 +1,8 @@
 site_name: Eureka
-site_description: My notes.
+site_description: Eureka, Shao Wang's notes about programming, software and others.
 site_url: https://www.shaowang.me/
 site_author: Shao Wang
+copyright: Copyright &copy; 2016 - 2023 Shao Wang
 
 theme:
     name: 'material'
@@ -122,7 +123,7 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/customization.css
 extra:
-  generator: false # remove "Made with Material for MkDocs"
+  generator: true # show "Made with Material for MkDocs"
   SEO: assets/meta/SEO.png
   comments: false #disable comments globally
   generate_graph: true #generate the graph of the site
@@ -136,3 +137,8 @@ extra:
   hooks:
     strip_comments: true
     fix_heading: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shao-wang-me/
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/shao-wang/
