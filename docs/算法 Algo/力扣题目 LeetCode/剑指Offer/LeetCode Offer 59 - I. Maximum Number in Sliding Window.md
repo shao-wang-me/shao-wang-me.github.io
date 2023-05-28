@@ -1,9 +1,9 @@
 ---
 publish: true
 en_title: LeetCode Offer 59 - I. Maximum Number in Sliding Window
-sr-due: 2023-05-25
-sr-interval: 4
-sr-ease: 220
+sr-due: 2023-06-07
+sr-interval: 13
+sr-ease: 240
 tags:
   - algo
 ---
@@ -13,9 +13,9 @@ tags:
 
 链接：[剑指 Offer 59 - I. 滑动窗口的最大值 - 力扣（LeetCode）](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
 
-相同：[[../../../../239. 滑动窗口最大值|239. 滑动窗口最大值]]
+相同：[[239. 滑动窗口最大值|239. 滑动窗口最大值]]
 
-做法：[[../../../../堆|堆]]；[[../../Monotonous Queue|Monotonous Queue]]
+做法：[[堆|堆]]；[[../../Monotonous Queue|Monotonous Queue]]
 
 > ```text
 > 输入: nums = [1,3,-1,-3,5,3,6,7], 和 k = 3
@@ -105,16 +105,22 @@ class Solution:
 ```python
 from collections import deque
 
-class Solution:  # 单调队列 monotonous queue (min queue / max queue)
+class Solution:
   def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-    xs, ans = deque(), []
+    # 单调队列
+    # 加入的值如果比之前的值都大，那么前面的值都可以清空了
+    # 对于要删除的值，由于新的值一定在某一侧，所以如果最老的那个值就是要删除的值，删除即可
+    q = deque()
+    ans = []
     for i, n in enumerate(nums):
-      while xs and xs[0] <= n:
-        xs.popleft()
-      xs.appendleft(n)
-      if i >= k:
-        if len(xs) > 1 and xs[-1] == nums[i-k]:
-          xs.pop()
-        ans.append(xs[-1])
+      # 我们先加入新的值，我们的 q 应该是前面大后面小的
+      # 因为新的值如果比前面某个值小，是会在 q 最后面的
+      while q and q[-1] < n:  # 不要删除相等的，否则 pop 时乱掉
+        q.pop()
+      q.append(n)
+      if i >= k and q[0] == nums[i - k]:
+        q.popleft()
+      if i >= k - 1:
+        ans.append(q[0])
     return ans
 ```
