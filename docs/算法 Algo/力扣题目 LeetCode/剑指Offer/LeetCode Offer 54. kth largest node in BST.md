@@ -1,8 +1,8 @@
 ---
 publish: true
 en_title: LeetCode Offer 54. kth largest node in BST
-sr-due: 2023-05-25
-sr-interval: 8
+sr-due: 2023-06-14
+sr-interval: 20
 sr-ease: 250
 tags:
   - algo
@@ -12,6 +12,8 @@ tags:
 #algo
 
 链接:: [剑指 Offer 54. 二叉搜索树的第k大节点 - 力扣（LeetCode）](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+
+做法：[[../../数据结构/树/Traversal of Trees|Traversal of Trees]]
 
 BST 的从右到左的中序序遍历就是从大到小排序的数组。
 
