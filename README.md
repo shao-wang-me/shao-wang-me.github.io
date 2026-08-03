@@ -10,9 +10,9 @@ Shao Wang's personal website and public notes.
 
 ## Content / 内容
 
-The site contains selected notes about software development, algorithms and other subjects. The private Obsidian vault is not published as a whole: only notes explicitly selected for publication are copied into this repository.
+The site contains selected notes about software development, algorithms and other subjects.
 
-网站主要收录软件开发、算法及其他主题的精选笔记。私人 Obsidian Vault 不会整体公开，只有明确选择发布的笔记才会进入这个仓库。
+网站主要收录软件开发、算法及其他主题的精选笔记。
 
 ## Development / 本地开发
 
