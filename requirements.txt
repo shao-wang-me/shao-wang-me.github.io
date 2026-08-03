@@ -1,4 +1,7 @@
 mkdocs==1.4.2
+setuptools==80.9.0
+pygments==2.17.2
+numpy==1.26.4
 mkdocs-material==9.0.6
 mkdocs-ezlinked-plugin==0.3.3
 mkdocs-awesome-pages-plugin==2.8.0
