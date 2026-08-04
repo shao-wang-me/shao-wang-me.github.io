@@ -1,28 +1,18 @@
 ---
 publish: true
-en_title: index
+slug: index
+hide:
+  - toc
 ---
 
-<iframe id="test"
-        title='test'
-        src="../assets/graph.html"
-        class="graph"
-        width="750px"
-        height="750px"
-        allowtransparency="true"
-        style="border: 0px; margin: 0px; padding: 0px; overflow: hidden;"
-        scrolling="no">
-</iframe>
+# Shao Wang
 
-Hello.
-My name is Shao Wang.
+**求索 · Notes, ideas and projects**
 
-I am a software engineer currently based in Melbourne. I have experience in Java, Python, cloud and ML/AI. Here are my notes, mainly about software development but also contain various other topics.
+I am a software engineer based in Melbourne. This is where I publish selected notes, projects and ideas.
 
-You can connect me on [LinkedIn](https://www.linkedin.com/in/shao-wang/).
+我是一名生活在墨尔本的软件工程师。这里收录我整理后公开的笔记、项目和想法。
 
-Outside of work, I enjoy spending time in nature, driving and exploring new things.
+[**中文**](/zh/) · [**English**](/en/)
 
----
-
-*The note titles are in English but many contents are in Chinese or a mix of both.*
+[GitHub](https://github.com/shao-wang-me/) · [LinkedIn](https://www.linkedin.com/in/shao-wang/)
