@@ -31,6 +31,10 @@ uv run --locked mkdocs build
 
 ## Publishing / 发布
 
+Public notes are written in Obsidian and published to this repository with the [Enveloppe](https://enveloppe.ovh/) plugin. MkDocs then builds the website from the published Markdown files.
+
+公开笔记使用 Obsidian 编辑，并通过 [Enveloppe](https://enveloppe.ovh/) 插件发布到这个仓库；之后由 MkDocs 将 Markdown 构建成网站。
+
 Pull requests run a build check. Changes merged into `main` are built and deployed to GitHub Pages through GitHub Actions.
 
 Pull Request 会运行构建检查；合并到 `main` 的内容会由 GitHub Actions 构建并发布到 GitHub Pages。
